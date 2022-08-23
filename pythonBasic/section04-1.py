@@ -33,9 +33,9 @@ v_tuple = 3, 5, 7
 v_set = {7, 8, 9}
 
 # 데이터 타입 출력
-print(type(v_str1))
-print(type(v_bool))
-print(type(v_str2))
+print('v_str1 : ' ,type(v_str1))
+print('v_bool' ,type(v_bool))
+print('v_str2' ,type(v_str2))
 print(type(v_bool))
 print(type(v_float))
 print(type(v_int))
@@ -191,3 +191,6 @@ print(math.pi)
 
 # 2진수 변환
 print(bin(50)) #0b로 시작
+
+
+print('9' in str(big_int2))
